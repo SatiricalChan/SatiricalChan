@@ -1,0 +1,16 @@
+#!/sbin/runscript
+ # $Header: $
+
+ depend() {
+  after mongod 
+ }
+
+ start() {
+  start-stop-daemon -b -S -x /usr/bin/satiricalchan -u node -m -p /home/node/satiricalchan.pid
+  eend $?
+ }
+
+ stop() {
+  start-stop-daemon -K -x /usr/bin/satiricalchan -p /home/node/satiricalchan.pid
+  eend $?
+ }

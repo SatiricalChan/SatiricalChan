@@ -1,0 +1,638 @@
+[
+  {
+    "template": "loginPage",
+    "prebuiltFields": {
+      "divCreation": "removal"
+    }
+  },
+  {
+    "template": "catalogPage",
+    "prebuiltFields": {
+      "noFlagDiv": "removal",
+      "divThreads": "children",
+      "labelBoard": "inner",
+      "flagsDiv": "removal",
+      "flagCombobox": "children",
+      "boardIdentifier": "value",
+      "captchaDiv": "removal",
+      "labelMaxFileSize": "inner",
+      "labelMaxFiles": "inner",
+      "labelMessageLength": "inner",
+      "divUpload": "removal",
+      "postingForm": "removal",
+      "inputFiles": "accept"
+    }
+  },
+  {
+    "template": "resetEmail",
+    "noTitle": true,
+    "prebuiltFields": {
+      "labelNewPass": "inner"
+    }
+  },
+  {
+    "template": "reportNotificationEmail",
+    "noTitle": true,
+    "prebuiltFields": {
+      "linkThread": [
+        "href",
+        "inner"
+      ]
+    }
+  },
+  {
+    "template": "confirmationEmail",
+    "noTitle": true,
+    "prebuiltFields": {
+      "loginLabel": "inner",
+      "confirmationLink": "href"
+    }
+  },
+  {
+    "template": "bannerManagementPage",
+    "prebuiltFields": {
+      "bannersDiv": "children",
+      "maxSizeLabel": "inner",
+      "boardIdentifier": [
+        "value",
+        "removal"
+      ]
+    }
+  },
+  {
+    "template": "errorPage",
+    "prebuiltFields": {
+      "codeLabel": "inner",
+      "errorLabel": "inner"
+    }
+  },
+  {
+    "template": "recoveryEmail",
+    "noTitle": true,
+    "prebuiltFields": {
+      "linkRecovery": "href",
+      "loginLabel": "inner"
+    }
+  },
+  {
+    "template": "index",
+    "prebuiltFields": {
+      "divBoards": [
+        "removal",
+        "children"
+      ],
+      "divLatestImages": [
+        "removal",
+        "children"
+      ],
+      "divLatestPosts": [
+        "removal",
+        "children"
+      ],
+      "linkEngine": [
+        "href",
+        "inner"
+      ],
+      "divStats": "removal",
+      "labelTotalPosts": "inner",
+      "labelTotalIps": "inner",
+      "labelTotalBoards": "inner",
+      "labelTotalPPH": "inner",
+      "labelTotalFiles": "inner",
+      "labelTotalSize": "inner"
+    }
+  },
+  {
+    "template": "boardPage",
+    "headChildren": true,
+    "bodyChildren": true,
+    "prebuiltFields": {
+      "labelName": "inner",
+      "labelDescription": "inner",
+      "noFlagDiv": "removal",
+      "panelMessage": "removal",
+      "divMessage": "inner",
+      "flagsDiv": "removal",
+      "flagCombobox": "children",
+      "divThreads": "children",
+      "divPages": "children",
+      "boardIdentifier": "value",
+      "linkManagement": "href",
+      "linkModeration": "href",
+      "bannerImage": "src",
+      "captchaDiv": "removal",
+      "divName": "removal",
+      "labelMaxFileSize": "inner",
+      "linkPrevious": [
+        "href",
+        "removal"
+      ],
+      "linkNext": [
+        "href",
+        "removal"
+      ],
+      "labelMaxFiles": "inner",
+      "labelMessageLength": "inner",
+      "divUpload": "removal",
+      "inputFiles": "accept"
+    }
+  },
+  {
+    "template": "threadPage",
+    "headChildren": true,
+    "bodyChildren": true,
+    "prebuiltFields": {
+      "noFlagDiv": "removal",
+      "ipDeletionForm": "removal",
+      "divArchive": "removal",
+      "panelMessage": "removal",
+      "divMessage": "inner",
+      "labelName": "inner",
+      "flagsDiv": "removal",
+      "flagCombobox": "children",
+      "labelDescription": "inner",
+      "divThreads": "children",
+      "boardIdentifier": "value",
+      "threadIdentifier": "value",
+      "linkManagement": "href",
+      "linkMod": "href",
+      "divMod": "removal",
+      "divControls": "removal",
+      "archiveBoardIdentifier": "value",
+      "archiveThreadIdentifier": "value",
+      "controlBoardIdentifier": "value",
+      "controlThreadIdentifier": "value",
+      "checkboxLock": "checked",
+      "checkboxPin": "checked",
+      "checkboxCyclic": "checked",
+      "bannerImage": "src",
+      "captchaDiv": "removal",
+      "divName": "removal",
+      "labelMaxFileSize": "inner",
+      "formTransfer": "removal",
+      "transferBoardIdentifier": "value",
+      "transferThreadIdentifier": "value",
+      "labelMaxFiles": "inner",
+      "labelMessageLength": "inner",
+      "divUpload": "removal",
+      "inputFiles": "accept"
+    }
+  },
+  {
+    "template": "messagePage",
+    "prebuiltFields": {
+      "labelMessage": "inner",
+      "linkRedirect": "href"
+    }
+  },
+  {
+    "template": "accountPage",
+    "prebuiltFields": {
+      "confirmationForm": "removal",
+      "latestPostingsLink": "removal",
+      "labelLogin": "inner",
+      "labelGlobalRole": "inner",
+      "ownedDiv": "children",
+      "emailField": "value",
+      "volunteeredDiv": "children",
+      "globalManagementLink": "removal",
+      "boardCreationDiv": "removal",
+      "checkboxAlwaysSign": "checked",
+      "checkboxReportNotify": "checked"
+    }
+  },
+  {
+    "template": "banPage",
+    "prebuiltFields": {
+      "boardLabel": "inner",
+      "reasonLabel": "inner",
+      "expirationLabel": "inner",
+      "idLabel": "inner",
+      "formAppeal": "removal",
+      "idIdentifier": "value"
+    }
+  },
+  {
+    "template": "gManagement",
+    "prebuiltFields": {
+      "socketLink": "removal",
+      "accountsLink": "removal",
+      "appealedBansPanel": [
+        "removal",
+        "children"
+      ],
+      "globalBannersLink": "removal",
+      "languagesLink": "removal",
+      "globalSettingsLink": "removal",
+      "divStaff": [
+        "removal",
+        "children"
+      ],
+      "addStaffForm": "removal",
+      "newStaffCombo": "children",
+      "reportDiv": "children",
+      "bansLink": "removal",
+      "rangeBansLink": "removal",
+      "massBanPanel": "removal",
+      "hashBansLink": "removal"
+    }
+  },
+  {
+    "template": "bManagement",
+    "prebuiltFields": {
+      "locationComboBox": "children",
+      "linkSelf": "href",
+      "appealedBansPanel": "children",
+      "uniqueFilesCheckbox": "checked",
+      "uniquePostsCheckbox": "checked",
+      "blockDeletionCheckbox": "checked",
+      "customJsForm": "removal",
+      "tagsField": "value",
+      "maxBumpAgeField": "value",
+      "customSpoilerIdentifier": "value",
+      "customJsIdentifier": "value",
+      "customSpoilerIndicator": "removal",
+      "hourlyThreadLimitField": "value",
+      "autoCaptchaThresholdField": "value",
+      "flagManagementLink": "href",
+      "ruleManagementLink": "href",
+      "customCssIdentifier": "value",
+      "boardLabel": "inner",
+      "messageLengthLabel": "inner",
+      "volunteersDiv": "children",
+      "addVolunteerBoardIdentifier": "value",
+      "transferBoardIdentifier": "value",
+      "deletionIdentifier": "value",
+      "reportDiv": "children",
+      "bannerManagementLink": [
+        "href",
+        "removal"
+      ],
+      "ownerControlDiv": "removal",
+      "closedReportsLink": "href",
+      "bansLink": "href",
+      "boardNameField": "value",
+      "boardDescriptionField": "value",
+      "boardSettingsIdentifier": "value",
+      "disableIdsCheckbox": "checked",
+      "allowCodeCheckbox": "checked",
+      "early404Checkbox": "checked",
+      "captchaModeComboBox": "children",
+      "unindexCheckbox": "checked",
+      "forceAnonymityCheckbox": "checked",
+      "filterManagementLink": "href",
+      "anonymousNameField": "value",
+      "rangeBansLink": "href",
+      "hashBansLink": "href",
+      "boardMessageField": "defaultValue",
+      "textBoardCheckbox": "checked",
+      "requireFileCheckbox": "checked",
+      "maxFilesField": "value",
+      "maxFileSizeField": "value",
+      "maxThreadsField": "value",
+      "autoSageLimitField": "value",
+      "validMimesField": "value"
+    }
+  },
+  {
+    "template": "closedReportsPage",
+    "prebuiltFields": {
+      "reportDiv": "children"
+    }
+  },
+  {
+    "template": "bansPage",
+    "prebuiltFields": {
+      "bansDiv": "children"
+    }
+  },
+  {
+    "template": "logsPage",
+    "prebuiltFields": {
+      "divLogs": "children"
+    }
+  },
+  {
+    "template": "filterManagement",
+    "prebuiltFields": {
+      "divFilters": "children",
+      "boardIdentifier": "value"
+    }
+  },
+  {
+    "template": "boardModerationPage",
+    "prebuiltFields": {
+      "boardTransferIdentifier": "value",
+      "boardDeletionIdentifier": "value",
+      "labelTitle": "inner",
+      "linkOwner": [
+        "inner",
+        "href"
+      ],
+      "labelLastSeen": "inner",
+      "checkboxSfw": "checked",
+      "specialSettingsIdentifier": "value",
+      "checkboxLocked": "checked",
+      "divVolunteers": "children"
+    }
+  },
+  {
+    "template": "boardsPage",
+    "prebuiltFields": {
+      "divBoards": "children",
+      "divPages": "children",
+      "linkOverboard": [
+        "href",
+        "removal"
+      ],
+      "linkSfwOver": [
+        "href",
+        "removal"
+      ]
+    }
+  },
+  {
+    "template": "noCookieCaptchaPage",
+    "prebuiltFields": {
+      "divSolvedCaptcha": "removal",
+      "labelCaptchaId": "inner",
+      "inputCaptchaId": "value",
+      "imageCaptcha": "src"
+    }
+  },
+  {
+    "template": "rangeBansPage",
+    "prebuiltFields": {
+      "rangeBansDiv": "children",
+      "boardIdentifier": [
+        "value",
+        "removal"
+      ]
+    }
+  },
+  {
+    "template": "rangeBanPage",
+    "prebuiltFields": {
+      "boardLabel": [
+        "inner"
+      ],
+      "rangeLabel": [
+        "inner"
+      ]
+    }
+  },
+  {
+    "template": "hashBansPage",
+    "prebuiltFields": {
+      "hashBansDiv": "children",
+      "boardIdentifier": [
+        "value",
+        "removal"
+      ]
+    }
+  },
+  {
+    "template": "notFoundPage",
+    "prebuiltFields": {
+    }
+  },
+  {
+    "template": "ruleManagementPage",
+    "prebuiltFields": {
+      "divRules": "children",
+      "boardIdentifier": "value"
+    }
+  },
+  {
+    "template": "rulesPage",
+    "prebuiltFields": {
+      "boardLabel": "inner",
+      "divRules": "children"
+    }
+  },
+  {
+    "template": "maintenancePage",
+    "prebuiltFields": {
+    }
+  },
+  {
+    "template": "editPage",
+    "prebuiltFields": {
+      "fieldMessage": "defaultValue",
+      "boardIdentifier": "value",
+      "threadIdentifier": [
+        "value",
+        "removal"
+      ],
+      "postIdentifier": [
+        "value",
+        "removal"
+      ],
+      "labelMessageLength": "inner",
+      "fieldSubject": "value"
+    }
+  },
+  {
+    "template": "flagsPage",
+    "prebuiltFields": {
+      "flagsDiv": "children",
+      "boardIdentifier": "value",
+      "maxSizeLabel": "inner",
+      "maxNameLengthLabel": "inner"
+    }
+  },
+  {
+    "template": "globalSettingsPage",
+    "prebuiltFields": {
+      "fieldMaxBoardRangeBans": "value",
+      "fieldAddons": "value",
+      "fieldAcceptedMimes": "value",
+      "fieldSlaves": "value",
+      "fieldAddress": "value",
+      "fieldFePath": "value",
+      "fieldMaster": "value",
+      "fieldTempDir": "value",
+      "fieldRssDomain": "value",
+      "fieldSslPass": "value",
+      "fieldSenderEmail": "value",
+      "fieldSiteTitle": "value",
+      "fieldBanMessage": "value",
+      "fieldAnonymousName": "value",
+      "fieldTorSource": "value",
+      "fieldCSP": "value",
+      "fieldIncrementalSpamIpsSource": "value",
+      "fieldLanguagePack": "value",
+      "fieldOverboard": "value",
+      "fieldSfwOverboard": "value",
+      "fieldSpamIpsSource": "value",
+      "fieldThumbExtension": "value",
+      "fieldPort": "value",
+      "fieldGlobalLatestImages": "value",
+      "fieldMessageLength": "value",
+      "fieldIpExpiration": "value",
+      "fieldInactivityThreshold": "value",
+      "fieldTorPort": "value",
+      "fieldCaptchaExpiration": "value",
+      "fieldOverBoardThreads": "value",
+      "fieldClusterPort": "value",
+      "fieldPageSize": "value",
+      "fieldLatestPostsCount": "value",
+      "fieldAutoSageLimit": "value",
+      "fieldMultiBoardThreadCount": "value",
+      "fieldBoardMessageLength": "value",
+      "fieldThreadLimit": "value",
+      "fieldMaxRequestSize": "value",
+      "fieldMaxFileSize": "value",
+      "fieldMaxFiles": "value",
+      "fieldBypassHours": "value",
+      "fieldBypassPosts": "value",
+      "fieldTopBoardsCount": "value",
+      "fieldBoardsPerPage": "value",
+      "fieldThumbSize": "value",
+      "fieldMaxRules": "value",
+      "fieldMaxTags": "value",
+      "fieldMaxFilters": "value",
+      "fieldStaticExpiration": "value",
+      "fieldMaxVolunteers": "value",
+      "fieldMaxBannerSize": "value",
+      "fieldMaxFlagSize": "value",
+      "fieldFloodInterval": "value",
+      "fieldGlobalLatestPosts": "value",
+      "fieldMediaPageSize": "value",
+      "fieldFlagNameLength": "value",
+      "fieldMaxBoardHashBans": "value",
+      "checkboxDisable304": "checked",
+      "checkboxVerbose": "checked",
+      "checkboxBlockedReport": "checked",
+      "checkboxSFWLatestImages": "checked",
+      "checkboxFfmpegGifs": "checked",
+      "checkboxAutoPruneFiles": "checked",
+      "checkboxDisableLatestPostings": "checked",
+      "checkboxOmitUnindexedContent": "checked",
+      "checkboxGlobalBanners": "checked",
+      "checkboxDisableFloodCheck": "checked",
+      "checkboxSendmail": "checked",
+      "checkboxDisableSpamCheck": "checked",
+      "checkboxVerboseGenerator": "checked",
+      "checkboxVerboseMisc": "checked",
+      "checkboxVerboseQueue": "checked",
+      "checkboxVerboseGridfs": "checked",
+      "checkboxBoardStaffArchiving": "checked",
+      "checkboxVerboseApis": "checked",
+      "checkboxMediaThumb": "checked",
+      "checkboxGlobalBoardModeration": "checked",
+      "checkboxMaintenance": "checked",
+      "checkboxVerboseCache": "checked",
+      "checkboxDisableAccountCreation": "checked",
+      "checkboxAllowCustomJs": "checked",
+      "checkboxMultipleReports": "checked",
+      "checkboxGlobalCaptcha": "checked",
+      "checkboxSpamBypass": "checked",
+      "checkboxFrontPageStats": "checked",
+      "checkboxDisableCatalogPosting": "checked",
+      "checkboxAllowTorFiles": "checked",
+      "checkboxUseAlternativeLanguages": "checked",
+      "comboBypassMode": "children",
+      "comboSsl": "children",
+      "comboTorPostingLevel": "children",
+      "comboMinClearIpRole": "children",
+      "comboBoardCreationRequirement": "children"
+    }
+  },
+  {
+    "template": "hashBanPage",
+    "prebuiltFields": {
+      "hashBansPanel": "children"
+    }
+  },
+  {
+    "template": "overboard",
+    "prebuiltFields": {
+      "divThreads": "children"
+    }
+  },
+  {
+    "template": "bypassPage",
+    "prebuiltFields": {
+      "indicatorValidBypass": "removal",
+      "renewForm": "removal"
+    }
+  },
+  {
+    "template": "logIndexPage",
+    "prebuiltFields": {
+      "divDates": "children"
+    }
+  },
+  {
+    "template": "graphsIndexPage",
+    "prebuiltFields": {
+      "divDates": "children"
+    }
+  },
+  {
+    "template": "mediaManagementPage",
+    "prebuiltFields": {
+      "filesDiv": "children",
+      "pagesDiv": "children"
+    }
+  },
+  {
+    "template": "languagesManagementPage",
+    "prebuiltFields": {
+      "languagesDiv": "children"
+    }
+  },
+  {
+    "template": "accountsPage",
+    "prebuiltFields": {
+      "divAccounts": "children"
+    }
+  },
+  {
+    "template": "socketManagementPage",
+    "prebuiltFields": {
+      "statusLabel": "inner"
+    }
+  },
+  {
+    "template": "accountManagementPage",
+    "prebuiltFields": {
+      "emailLabel": "inner",
+      "lastSeenLabel": "inner",
+      "ownedBoardsDiv": "children",
+      "volunteeredBoardsDiv": "children",
+      "globalRoleLabel": "inner",
+      "deletionForm": "removal",
+      "userIdentifier": "value",
+      "loginLabel": "inner"
+    }
+  },
+  {
+    "template": "mediaDetailsPage",
+    "prebuiltFields": {
+      "labelSize": "inner",
+      "labelUploadDate": "inner",
+      "panelReferences": "children",
+      "labelIdentifier": "inner"
+    }
+  },
+  {
+    "template": "latestPostingsPage",
+    "prebuiltFields": {
+      "divPostings": "children",
+      "fieldDate": "value",
+      "fieldBoards": "value",
+      "linkPrevious": "href",
+      "linkNext": "href"
+    }
+  },
+  {
+    "template": "archivePage",
+    "prebuiltFields": {
+      "divThreads": "children",
+      "divPages": "children",
+      "fieldBoards": "value"
+    }
+  }
+]
